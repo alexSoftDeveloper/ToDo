@@ -32,7 +32,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Todoey" id="DxC-KH-6BS">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="Lem-V7-QHs">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="Lem-V7-QHs">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="aPo-oA-U59" id="KE7-HW-meb"/>
@@ -61,6 +61,9 @@
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3TE-Xa-700">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="aPo-oA-U59" kind="relationship" relationship="rootViewController" id="90i-1O-ESt"/>
                     </connections>
