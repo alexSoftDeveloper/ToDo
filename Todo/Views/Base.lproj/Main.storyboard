@@ -52,6 +52,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SRj-Rb-KqV">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <color key="tintColor" systemColor="systemMintColor"/>
                         <color key="barTintColor" systemColor="systemMintColor"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
