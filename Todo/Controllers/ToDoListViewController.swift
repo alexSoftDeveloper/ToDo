@@ -112,6 +112,8 @@ class ToDoListViewController: UITableViewController {
         } catch {
             print("Error fetching data from contxt \(error)")
         }
+        
+        self.tableView.reloadData()
     }
     
 }
@@ -125,6 +127,7 @@ extension ToDoListViewController: UISearchBarDelegate {
         request.predicate = NSPredicate(format: "title CONTAINS[cd] %@", searchBar.text!)
         
         request.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
+        
         
         loadItems(with: request)
     }
