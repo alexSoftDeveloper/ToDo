@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F7AC85E2CE1B0F700E0FD2C /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AC85D2CE1B0F700E0FD2C /* CategoryViewController.swift */; };
+		8F8EA6D82CE9DDD000FC1364 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8F8EA6D72CE9DDD000FC1364 /* SwipeCellKit */; };
 		8FAE73D62CE88490004D0F75 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8FAE73D52CE88490004D0F75 /* RealmSwift */; };
 		8FAE73D72CE884A8004D0F75 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 8FAE73D52CE88490004D0F75 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8FB4C24E2CE8EA82000A0F5A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4C24D2CE8EA82000A0F5A /* Item.swift */; };
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8EA6D82CE9DDD000FC1364 /* SwipeCellKit in Frameworks */,
 				8FAE73D62CE88490004D0F75 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +146,7 @@
 			name = Todo;
 			packageProductDependencies = (
 				8FAE73D52CE88490004D0F75 /* RealmSwift */,
+				8F8EA6D72CE9DDD000FC1364 /* SwipeCellKit */,
 			);
 			productName = Todo;
 			productReference = 8FD2F9712CD9F75300E33C72 /* Todo.app */;
@@ -175,6 +178,7 @@
 			mainGroup = 8FD2F9682CD9F75300E33C72;
 			packageReferences = (
 				8FAE73D42CE88490004D0F75 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				8F8EA6D62CE9DDD000FC1364 /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
 			);
 			productRefGroup = 8FD2F9722CD9F75300E33C72 /* Products */;
 			projectDirPath = "";
@@ -434,6 +438,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8F8EA6D62CE9DDD000FC1364 /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 2.7.1;
+				minimumVersion = 2.0.0;
+			};
+		};
 		8FAE73D42CE88490004D0F75 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
@@ -446,6 +459,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8F8EA6D72CE9DDD000FC1364 /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F8EA6D62CE9DDD000FC1364 /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
+			productName = SwipeCellKit;
+		};
 		8FAE73D52CE88490004D0F75 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8FAE73D42CE88490004D0F75 /* XCRemoteSwiftPackageReference "realm-swift" */;
