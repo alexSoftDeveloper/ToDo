@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8F7AC85E2CE1B0F700E0FD2C /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AC85D2CE1B0F700E0FD2C /* CategoryViewController.swift */; };
 		8F8EA6D82CE9DDD000FC1364 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8F8EA6D72CE9DDD000FC1364 /* SwipeCellKit */; };
+		8F8EA6FA2CEADC3300FC1364 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8EA6F92CEADC3300FC1364 /* SwipeTableViewController.swift */; };
 		8FAE73D62CE88490004D0F75 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8FAE73D52CE88490004D0F75 /* RealmSwift */; };
 		8FAE73D72CE884A8004D0F75 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 8FAE73D52CE88490004D0F75 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8FB4C24E2CE8EA82000A0F5A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4C24D2CE8EA82000A0F5A /* Item.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		8F7AC85D2CE1B0F700E0FD2C /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		8F8EA6F92CEADC3300FC1364 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		8FB4C24D2CE8EA82000A0F5A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8FB4C24F2CE8EAA1000A0F5A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		8FD2F9712CD9F75300E33C72 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +77,7 @@
 			children = (
 				8F7AC85D2CE1B0F700E0FD2C /* CategoryViewController.swift */,
 				8FD2F9782CD9F75300E33C72 /* ToDoListViewController.swift */,
+				8F8EA6F92CEADC3300FC1364 /* SwipeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				8F7AC85E2CE1B0F700E0FD2C /* CategoryViewController.swift in Sources */,
 				8FD2F9792CD9F75300E33C72 /* ToDoListViewController.swift in Sources */,
 				8FD2F9752CD9F75300E33C72 /* AppDelegate.swift in Sources */,
+				8F8EA6FA2CEADC3300FC1364 /* SwipeTableViewController.swift in Sources */,
 				8FB4C24E2CE8EA82000A0F5A /* Item.swift in Sources */,
 				8FD2F9772CD9F75300E33C72 /* SceneDelegate.swift in Sources */,
 				8FB4C2502CE8EAA1000A0F5A /* Category.swift in Sources */,
